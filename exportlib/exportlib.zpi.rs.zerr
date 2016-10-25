@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------
+      Zeus - Version 3.98f
+      Copyright (c) Xidicone P/L 1993-2016.  All rights reserved.
+---------------------------------------------------------------------------
+ **** Unregistered Software. To be used for evaluation purposes only. ****
+---------------------------------------------------------------------------
+
+--------------------Configuration: exportlib - Release--------------------
+Using workspace project options....
+
+   Compiling cargoprojects v0.1.0 (file:///C:/Users/Putty4.55/Documents/cargoprojects/exportlib)
+src\lib.rs:6:5: 6:22 warning: unused import, #[warn(unused_imports)] on by default
+src\lib.rs:6 use std::ffi::CString;
+                 ^~~~~~~~~~~~~~~~~
+src\lib.rs:232:5: 234:6 warning: method is never used: `GetVersion`, #[warn(dead_code)] on by default
+src\lib.rs:232     fn GetVersion(&mut self) -> jint {
+                   ^
+src\lib.rs:255:13: 255:17 warning: unused variable: `ball`, #[warn(unused_variables)] on by default
+src\lib.rs:255         let ball = Ball::new(0.5);
+                           ^~~~

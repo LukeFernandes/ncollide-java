@@ -1,0 +1,11 @@
+[package]
+name = "cargoprojects"
+version = "0.1.0"
+authors = ["Putty4.55"]
+
+[lib]
+crate-type = ["dylib"]
+
+[dependencies]
+ncollide = "0.10.*"
+libc = "0.1"
